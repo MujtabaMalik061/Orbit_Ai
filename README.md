@@ -29,12 +29,12 @@ The app has no login or API authentication. All AI calls use server credentials 
 
 ## Public API
 
-`POST https://YOUR-APP.vercel.app/api/chat`
+`POST https://orbitai-online.vercel.app/api/chat`
 
 Headers: `Content-Type: application/json`. No Authorization header needed. Cross-origin browser requests are supported through CORS and OPTIONS.
 
 ```sh
-curl https://YOUR-APP.vercel.app/api/chat \
+curl https://orbitai-online.vercel.app/api/chat \
   -H 'Content-Type: application/json' \
   -d '{"prompt":"Explain APIs in simple terms"}'
 ```
@@ -56,7 +56,7 @@ Multi-turn request:
 JavaScript:
 
 ```js
-const result = await fetch("https://YOUR-APP.vercel.app/api/chat", {
+const result = await fetch("https://orbitai-online.vercel.app/api/chat", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ prompt: "Hello!" }),

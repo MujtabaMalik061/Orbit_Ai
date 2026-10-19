@@ -260,7 +260,7 @@ export default function Home() {
   }
   const endpoint =
     typeof window === "undefined"
-      ? "https://your-app.vercel.app/api/chat"
+      ? "https://orbitai-online.vercel.app/api/chat"
       : `${window.location.origin}/api/chat`;
   const example = `curl ${endpoint} \\\n  -H 'Content-Type: application/json' \\\n  -d '{"prompt":"Explain APIs in simple terms"}'`;
   return (
