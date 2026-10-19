@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="80" viewBox="0 0 252 80" fill="none">
+  <title>Orbit logo</title>
+  <desc>The Orbit symbol and lowercase forest green wordmark on a transparent background.</desc>
+  <g transform="translate(4 8)">
+    <circle cx="32" cy="32" r="11" fill="#315E4D"/>
+    <ellipse cx="32" cy="32" rx="27" ry="13" transform="rotate(-35 32 32)" stroke="#315E4D" stroke-width="3.2"/>
+    <circle cx="53.6" cy="15.4" r="5.5" fill="#829872"/>
+  </g>
+  <text x="82" y="58" fill="#24352F" font-family="Manrope, Arial, sans-serif" font-size="55" font-weight="750" letter-spacing="-2.8">orbit</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Orbit</title>
+  <desc>A forest green core encircled by a rising orbit and a sage satellite.</desc>
+  <circle cx="32" cy="32" r="11" fill="#315E4D"/>
+  <ellipse cx="32" cy="32" rx="27" ry="13" transform="rotate(-35 32 32)" stroke="#315E4D" stroke-width="3.2"/>
+  <circle cx="53.6" cy="15.4" r="5.5" fill="#829872"/>
+</svg>
